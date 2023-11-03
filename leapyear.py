@@ -7,7 +7,16 @@ givenyear = int(input("year to be checked = "))
 daysinleapyear = int(input("days in a leap year = "))
 daysingivenyear = int(input("the days in the given year = "))
 
-if(daysingivenyear == daysinleapyear):
-    print("the given year is a leap year")
-else:
-    print("the given year is not a leap year ")    
+
+def leapYear(daysingivenyear,daysinleapyear):
+    if(daysingivenyear == daysinleapyear):
+        print( "the given year is a leap year" )
+    else:
+        print( "given year is not a leap year ")    
+
+leapYear(daysingivenyear,daysinleapyear)
+
+# if(daysingivenyear == daysinleapyear):
+#     print("the given year is a leap year")
+# else:
+#     print("the given year is not a leap year ")    
