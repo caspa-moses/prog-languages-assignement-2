@@ -10,9 +10,9 @@ daysingivenyear = int(input("the days in the given year = "))
 
 def leapYear(daysingivenyear,daysinleapyear):
     if(daysingivenyear == daysinleapyear):
-        print( "the given year is a leap year" )
+        print( givenyear, "is a leap year" )
     else:
-        print( "given year is not a leap year ")    
+        print( givenyear, "is not a leap year ")    
 
 leapYear(daysingivenyear,daysinleapyear)
 
